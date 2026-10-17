@@ -1,0 +1,15 @@
+{
+  "name": "dashlb-vercel",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "@netlify/database": "latest",
+    "bcryptjs": "^3.0.2",
+    "mysql2": "latest",
+    "nodemailer": "^7.0.5",
+    "pg": "^8.23.1"
+  },
+  "scripts": { "build": "node vercel-build.mjs" }
+}
